@@ -1,7 +1,9 @@
 import React from "react";
 
+import "./shopping-style.css";
+
 const ShoppingList = props => (
-  <table>
+  <table className="display-item">
     <thead>
       <tr></tr>
     </thead>

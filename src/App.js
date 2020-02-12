@@ -4,6 +4,8 @@ import ShoppingList from "./tables/shopping-list.component";
 import AddItem from "./forms/add-item.component";
 import EditItem from "./forms/edit-item.component";
 
+import "./App.css";
+
 const App = () => {
   //Data
   const itemData = [
@@ -46,7 +48,7 @@ const App = () => {
   };
 
   return (
-    <div className="App">
+    <div className="container">
       <h1>Todo List</h1>
       <div className="flex-row">
         <div className="flex-large">
